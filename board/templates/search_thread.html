@@ -1,15 +1,11 @@
 {% extends 'base.html' %}
-
-{% block title %}なんでも掲示板{% endblock %}
+{% load static %}
 
 {% block contents %}
 <div class="container">
     <div class="my-div-style">
         <!--<div class="row">-->
-            <h1>新着スレッド</h1>
-        <!--</div>-->
-
-        <!--<div class="row">-->
+            <h1>検索結果</h1>
             {% for room in room_list %}
             <br>
             <a href="{% url 'board:thread_board' room.pk %}">

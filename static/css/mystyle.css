@@ -1,0 +1,49 @@
+body, #wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+h3 {
+    color: green;
+    font-family: serif;
+    font-weight: 500;
+    word-break: break-all;
+}
+
+.message-form{
+    width: 100%;
+    background-color: #333333;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    padding: 0.8%;
+
+}
+
+
+#post-form {
+    width: 100%;
+}
+
+.my-div-style {
+    margin-top:4.5rem;
+    margin-bottom:4.5rem;
+}
+
+.content {
+    word-break: break-all;
+    color: #FF8C00;
+}
+
+.time {
+    font-size: 11px;
+}
+
+/*.active {
+  font-color: green !important;
+}*/
+
+/*body {
+    font-family: 'メイリオ', 'Meiryo', 'sens-serif';
+}*/
